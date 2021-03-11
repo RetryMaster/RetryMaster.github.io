@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.h1 {
+    color: red;
+}
+
+.h2 {
+    color: #fff;
+    background-color: green;
+}
+
+.first_text {
+    color: #fff;
+    width: 90px;
+    height: 60px;
+    background-color: blue;
+}
+
+.first_code {
+    color: red;
+}
+
+.fiveth_text {
+    margin-top: 120px;
+}
+
+.second_h2 {
+    color: #fff;
+    background-color: green;
+    padding: 40px 0px 40px 40px;
+}
+.third_text {
+    margin-left: 100px;
+}
+
+.list {
+    width: 100%;
+}
+
+.point1 {
+    border: solid;
+    font-size: 20px;
+    height: 30px;
+}
+
+.point2 {
+    border: solid;
+    font-size: 20px;
+    height: 30px;
+}
+
+.point3 {
+    border: solid;
+    font-size: 20px;
+    height: 30px;
+}
