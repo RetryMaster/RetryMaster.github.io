@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+.logo {
+    width: 150px;
+}
 .h1 {
     color: red;
 }
@@ -14,7 +17,7 @@
 .first_text {
     color: #fff;
     width: 90px;
-    height: 60px;
+    margin-bottom: 60px;
     background-color: blue;
 }
 
@@ -39,20 +42,8 @@
     width: 100%;
 }
 
-.point1 {
+.point {
     border: solid;
     font-size: 20px;
-    height: 30px;
 }
 
-.point2 {
-    border: solid;
-    font-size: 20px;
-    height: 30px;
-}
-
-.point3 {
-    border: solid;
-    font-size: 20px;
-    height: 30px;
-}
