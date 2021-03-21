@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3 {
+    font-size: 30 px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* 1й блок */
+.header {
+    padding-top: 62px;
+    width: 100%;
+    background: rgb(78,190,254);
+    background: linear-gradient(135deg, rgba(78,190,254,1) 0%, rgba(63,160,230,1) 50%, rgba(55,143,217,1) 100%);
+}
+
+.wrap {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 145px;
+}
+
+.h1 {
+    color: #fff;
+    width: 695px;
+    font-size: 37px;
+    margin: 0 auto;
+}
+
+.dream {
+    font-size: 59px;
+}
+.first_text {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    color: #fff;
+}
+
+.btn {
+    height: 55px;
+    width: 220px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: #ffd429;
+}
+
+/* 2й блок */
+.second_section {
+    padding-bottom: 125px;
+}
+.h2 {
+    margin-top: 110px;
+    margin-right: 0px;
+    margin-bottom: 80px;
+    margin-left: 430px;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin: 0;
+    font-size: 19px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.block {
+    max-width: 290px;
+}
+
+.time, .beach {
+    margin: 0;
+    margin-left: 115px;
+}
+
+.p1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.rocket {
+    margin: 0;
+    margin-left: 115px;
+}
+
+.travel {
+    margin-left: 50px;
+}
+
+.values {
+    margin-left: 40px;
+}
+
+/* 3й блок */
+.third_section {
+    background-color: #ecf3f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.h2form {
+    margin-top: 0;
+    margin-left: 370px;
+}
+
+.input {
+    display: block;
+    margin-left: 415px;
+    margin-bottom: 15px;
+    width: 340px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+.btn2 {
+    width: 340px;
+    margin-left: 415px;
+}
+
+/* 4й блок */
+.footer {
+    background-color: #164d7a;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.last_text {
+    font-family:'Open Sans', sans-serif;
+    color: #fff;
+    margin-left: 535px;
+}
