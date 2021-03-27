@@ -29,7 +29,7 @@ body {
 
 .h1 {
     color: #fff;
-    width: 695px;
+    width: 560px;
     font-size: 37px;
     margin: 0 auto;
 }
@@ -132,4 +132,68 @@ h3 {
     font-family:'Open Sans', sans-serif;
     color: #fff;
     text-align: center;
+}
+
+/* responsive */
+
+/* 962-1200 */
+@media screen and (max-width: 1200px) {
+    .wrap {
+        width: 960px;
+    }
+    .offer {
+        width: 450px;
+    }
+    .h1 {
+        width: 100%;
+    }
+    .post {
+        width: 550px;
+    }
+}
+
+/* 768-992 */
+@media screen and (max-width: 992px) {
+    .wrap {
+        width: 720px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .offer {
+        text-align: center;
+    }
+    .wrapper2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .block {
+        margin-bottom: 50px;
+    }
+    .second_section {
+        padding-bottom: 75px;
+    }
+}
+
+/* 576-768 */
+@media screen and (max-width: 768px) {
+    .wrap {
+        width: 540px;
+    }
+}
+
+/* 0-576 */
+@media screen and (max-width: 576px) {
+    .wrap {
+        width: 90%;
+    }
+    .offer {
+        width: 100%;
+    }
+    .post {
+        width: 100%;
+    }
+    .first_text {
+        width: 100%;
+    }
 }
