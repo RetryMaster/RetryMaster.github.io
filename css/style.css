@@ -73,6 +73,9 @@ a {
     color: #E12B21;
     margin-left: 10px;
 }
+.burger{
+    display: none;
+}
 
 .wrap2 {
     display: flex;
@@ -377,6 +380,12 @@ a {
     top: 2350px;
     cursor: pointer;
 }
+.arrow_r{
+    display: none;
+}
+.arrow_l{
+    display: none;
+}
 
 /* 5th section */
 
@@ -573,4 +582,593 @@ a {
 
 .social_networks {
     margin-right: 20px;
+}
+
+/* img for responsive */
+.berries1{
+    display: none;
+}
+.chocolate2{
+    display: none;
+}
+.lemons{
+    display: none;
+}
+.red{
+    display: none;
+}
+.lime{
+    display: none;
+}
+.strawberry2{
+    display: none;
+}
+.lemons2{
+    display: none;
+}
+
+/* responsive */
+
+/* 962-1200 */
+@media screen and (max-width: 1200px) {
+    .wrapper{
+        width: 95%;
+    } 
+    .first {
+        background-image: none;
+    }
+    .second {
+        background-image: none;
+    }
+    .third {
+         background-image: none;
+    }
+    .arrow{
+        left: 95%;
+        top: 290px;
+        width: 30px;
+        height: 60px;
+    }
+    .bullet {
+        width: 50px;
+        margin-right: 10px;
+    }
+    .offer-img {
+        width: 90%;
+        height: 90%;
+    }
+    .bullets {
+        margin-left: 150px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .logo {
+        width: 150px;
+        height: 55px;
+    }
+    .menu{
+        width: 400px;
+        font-size: 14px;
+    }
+    .menu-element{
+        font-size: 16px;
+    }
+    .telephone {
+        width: 180px;
+    }
+    .tel {
+        font-size: 16px;
+    }
+    .phone {
+        width: 23px;
+        height: 23px;
+    }
+    .btn {
+        font-size: 18px;
+         width: 240px;
+         height: 40px;
+         margin-top: 40px;   
+    }
+    h1{
+        font-size: 40px;
+    }
+
+    /* -------------------- */
+
+    .wrap3{
+        background-image: none;
+    }
+    .about{
+        background-image: none;
+    }
+    .chocolate1{
+        background-image: none;
+    }
+    .ant_hill_cake{
+        width: 95%;
+        height: 90%;
+    }
+    .inform {
+        margin-top: 30px;
+    }
+    .about_company {
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(0, 92, 19, 0.71);
+        max-width: 510px;
+        margin-top: 30px;
+    }
+
+    /* --------------------- */
+
+    .wr1 {
+        background-image: none;
+    }
+
+    .wr2 {
+        background-image: none;
+    }
+
+    .card_header {
+        font-size: 20px;
+        margin-left: 56px;
+    }
+
+    .card_inform{
+        font-size: 16px;
+        line-height: 24px;
+        color: #005C13;
+        padding-bottom: 10px;
+    }
+
+    .card_number {
+        font-size: 120px;
+    }
+
+    .best_products_header{
+        margin-left: 47px;
+    }
+
+    /* ------------- */
+
+    .red_cake {
+        display:none;
+    }
+    .offers{
+        align-items: center;
+        margin-left: 80px;
+    }
+    .product{
+        margin-left: 60px;
+    }
+    .offer_btn{
+        margin: 0;
+        width: 196px;
+        height: 38px;
+        font-weight: 800;
+        font-size: 18px;
+        margin-top: 13px;
+        margin-left: 15px;
+    }
+    .arrow1{
+        display: inline;
+        position: absolute;
+        right: 100px;
+        top: 2160px;
+        cursor: pointer;
+    }
+
+    .arrow2{
+        display: inline;
+        position: absolute;
+        right: 100px;
+        top: 2160px;
+        cursor: pointer;
+    }
+    .bullets2{
+        margin-left: 380px;
+    }
+    .cercle_bullet{
+        width: 25px;
+        height: 25px;
+    }
+    /* ---------------- */
+
+    .discount {
+        text-align: center;
+        background-color: #fff;
+        width: 600px;
+        height: 345px;
+        border-radius: 50px;
+        border: 1px solid #FFC000;
+        box-shadow: 0px 13px 10px #FFE28C;
+        padding: 40px 80px 40px 80px;
+        margin-left: 200px;
+    }
+    .wr4{
+        background-image: none;
+    }
+    .wr5{
+        background-image: none;
+    }
+    .wr7{
+        background-image: none;
+    }
+
+    /* --------------- */
+
+    .address_contacts{
+        margin-left: 0px;
+    }
+
+    .mailing_btn{
+        width: 242px;
+        height: 40px;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    /* ---------------- */
+    .strawberry2{
+        display: inline;
+        position: absolute;
+        top: 550px;
+        left: 30px;
+    }
+    .lemons2{
+        display: inline;
+        position: absolute;
+        top: 1150px;
+        right: 0;
+    }
+    .lime{
+        display: inline;
+        position: absolute;
+        top: 440px;
+        right: 0;
+    }
+    
+}
+
+/* 768-962 */
+@media screen and (max-width: 962px) {
+    .navbar{
+        margin-bottom: 50px;
+    }
+    .menu-element{
+        font-size: 14px;
+    }
+    .menu{
+        width: 300px;
+    }
+    .offer-img{
+        height: 250px;
+    }
+    .bullets{
+        margin-left: 100px;
+    }
+    .about_company{
+        margin: 0;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .post2{
+        height: 380px;
+    }
+    .strawberry2{
+        width: 380px;
+        height: 220px;
+    }
+    .lemons2{
+        width: 300px;
+        height: 250px;
+        top: 1100px;
+    }
+
+     .card_header {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    .card_inform{
+        font-size: 14px;
+        line-height: 22px;
+        color: #005C13;
+        padding-bottom: 10px;
+    }
+
+    .card_number {
+        font-size: 120px;
+    }
+
+    .best_products_header{
+        margin-left: 27px;
+    }
+    .product {
+    margin-left: 30px;
+}
+    .offers{
+        align-items: center;
+        margin-left: 40px;
+    }
+    .arrow1{
+        right: 0px;
+        top: 2050px;
+    }
+
+    .arrow2{
+        left: 0px;
+        top: 2050px;
+    }
+    .bullets2{
+        margin-left: 290px;
+    }
+    .discount {
+        margin-left: 80px;
+    }
+    
+    .wr6{
+        background-image: none;
+    }
+    .address_contacts{
+        margin-left: 10px;
+        width: 700px;
+    }
+    .map{   
+        margin-right: 30px;
+    }
+    .h2_5{
+        font-size: 30px;
+        text-align: left;
+    }
+    .e-mail_address{
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    .address_geo{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .mailing_header{
+        font-size: 18px;
+        
+    }
+    .email_input{
+        width: 225px;
+    }
+    .mailing_btn{
+        width: 225px;
+        font-size: 18px;
+    }
+    .footer_telephone{
+        display: none;
+    }
+    .menu-element{
+        font-size: 16px;
+    }
+    .arrow{
+        top: 250px;
+    }
+}
+
+/* 576-768 */
+@media screen and (max-width: 768px) {
+    .navbar{
+        margin-bottom: 10px;
+    }
+    .menu{
+        display: none;
+    }
+    .telephone{
+        display: none;
+    }
+   
+    .burger{
+        display: inline;
+    }
+
+    /* ----------- */
+
+    .wrap2{
+        display: block;
+    }
+    .post{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    h1{
+        margin: 0 auto;
+    }
+    .first_btn{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .lime{
+        display: none;
+    }
+    .offer{
+        margin-top: 40px;
+        margin-left: 20px;
+        padding-left: 30px;
+    }
+    .offer_img{
+        margin-left: 30px;
+    }
+    .bullets{
+        display: none;
+    }
+    .arrow{
+        top: 450px;
+    }
+    .strawberry2{
+        top: 650px;
+        width: 430px;
+    }
+    .lemons2{
+        display: none;
+    }
+    .ant_hill_cake{
+        display: none;
+    }
+    .honey_cake{
+        display: none;
+    }
+    .bullets2{
+        display: none;
+    }
+    .arrow1{
+        top: 2340px ;
+    }
+    .arrow2{
+        top: 2340px;
+    }
+    .product{
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .discount{
+        margin: 0 auto;
+        width: 500px;
+        padding: 30px;
+    }
+    .address_contacts{
+        width: 540px;
+        margin: 0 auto;
+        
+    }
+    .where_we{
+        height: 450px;
+        width: 230px;
+        margin-right: 5px;
+        margin-top: 50px;
+    }
+    .about_company{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .cards{
+        display: inline-block;
+    }
+    .card{
+        display: inline;
+        width: 180px;
+    }
+    .card_header{
+        font-size: 22px;
+    }
+    .card_inform{
+        font-size: 16px;
+    }
+}
+
+/* 0-576 */
+@media screen and (max-width: 576px) {
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .strawberry2{
+        display: none;
+    }
+    .first{
+        padding: 0;
+    }
+    .third{
+        padding-bottom: 60px;
+    }
+    .offer{
+        padding: 0;
+        margin-left: 0;
+    }
+    .offer-img{
+        width: 330px;
+        height: 200px;
+    }
+    .arrow{
+       
+        left:87.5%;
+        top: 490px;
+    }
+    .h2_2{
+        margin-left: 29px;
+    }
+    .card_header{
+        font-size: 18px;
+    }
+    .h2_3{
+        margin-bottom: 30px;
+    }
+    .offers{
+        margin: 0;
+    }
+    .catalog{
+        padding-bottom: 30px;
+    }
+    .arrow1{
+        display: none;
+    }
+    .arrow2{
+        display: none;
+    }
+    .arrow_l{
+        display: inline;
+        position: absolute;
+        left: 0;
+        top: 2280px;
+        cursor: pointer;
+    }
+    .arrow_r{
+        display: inline;
+        position: absolute;
+        right: 0;
+        top: 2280px;
+        cursor: pointer;
+    }
+    .sale{
+        padding: 0;
+    }
+
+    .discount{
+        width: 330px; 
+        margin-top: 30px; 
+        margin-bottom: 30px;      
+    }
+    .discount_text{
+        margin: 0 auto;
+        font-size: 14px;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .h2_4{
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+    .discount_btn{
+        width: 250px;
+        font-size: 20px;
+    }
+    .address_contacts{
+        display: block;
+        height: 650px;
+        padding-top: 15px;
+        width: 300px;
+    }
+    .where_we{
+        display: none;
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+    }
+    .address_geo{
+        width: 200px;
+        font-size: 14px;
+    }
+    .social_networks{
+        margin-right: 0;
+        margin-left: 10px;
+    }
 }
