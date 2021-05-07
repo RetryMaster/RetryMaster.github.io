@@ -13,21 +13,21 @@
 <body>
     <div class="wrap1">
         <header class="header">
-            <div class="wrapper">
+            <div class="wrapper header_wrap">
                 <div class="navbar">
                     <img src="/img/logo.png" alt="logo" class="logo">
-                    <ul class="menu">
-                        <li class="menu-element"><a href="#" class="menu-element"><strong>Главная</strong></a></li>
-                        <li class="menu-element"><a href="#about_us" class="menu-element">О нас</a></li>
-                        <li class="menu-element"><a href="#product's_catalog" class="menu-element">Каталог</a></li>
-                        <li class="menu-element"><a href="#our_contacts" class="menu-element">Контакты</a></li>
+                    <ul class="menu header_menu">
+                        <li class="menu-element"><a href="#" class="menu-element header_menu-element">Главная</a></li>
+                        <li class="menu-element"><a href="#about_us" class="menu-element header_menu-element">О нас</a></li>
+                        <li class="menu-element"><a href="#products_catalog" class="menu-element header_menu-element">Каталог</a></li>
+                        <li class="menu-element"><a href="#our_contacts" class="menu-element header_menu-element">Контакты</a></li>
                     </ul>
                     <div class="telephone">
                         <img src="/img/phone-call 1.svg" alt="tel" class="phone">
-                        <a href="#" class="tel">+7 9179372422</a>
+                        <a href="tel:+7 9179372422"  class="tel">+7 9179372422</a>
                     </div>
                     <div class="burger">
-                        <img src="/img/burger.svg" alt="burger">
+                        <span></span>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                             <h1 class="h1">Всё самое
                             вкусное вы найдёте
                             только у нас!</h1>
-                            <button class="btn first_btn">Сделать заказ</button>
+                            <button class="btn first_btn" onclick="window.location.href = '#products_catalog'">Сделать заказ</button>
                         </div>
                         <div class="offer">
                             <img src="/img/offer1.png" alt="offer" class="offer-img">
@@ -116,22 +116,22 @@
     <!-- catalog -->
     <section class="catalog">
         <div class="wrapper">
-            <h2 class="h2_3" id="product's_catalog">Выберите свои любимые вкусности</h2>
+            <h2 class="h2_3" id="products_catalog">Выберите свои любимые вкусности</h2>
             <div class="offers">
                 <div class="product chocolate_cake">
                     <span class="product_header">Шоколадный торт</span>
                     <p class="structure"><strong>Состав:</strong> яйца, масло сливочное, мука, сахар, какао-порошок, сода, соль, сметана, экстракт ванильный, шоколад.</p>
-                    <button class="btn offer_btn">Заказать</button>
+                    <button class="btn offer_btn">200 р.</button>
                 </div>
                 <div class="product honey_cake">
                     <span class="product_header">Медовый торт</span>
                     <p class="structure"><strong>Состав:</strong> яйца, сахар, масло сливочное, мука, мед пчелиный, сода, соль.</p>
-                    <button class="btn offer_btn">Заказать</button>
+                    <button class="btn offer_btn">200 р.</button>
                 </div>
                 <div class="product red_cake">
                     <span class="product_header">Красный Бархат</span>
                     <p class="structure"><strong>Состав:</strong> яйца, сахар, масло сливочное, мука, кусочки вишни, кондитерский крем - сливки, пищевой краситель, разрыхлитель.</p>
-                    <button class="btn offer_btn">Заказать</button>
+                    <button class="btn offer_btn">200 р.</button>
                 </div>
                 
             </div>
@@ -192,11 +192,11 @@
                             <span class="address_geo">Муслюмовский р-н, с.Муслюмово,
                             ул. Первомайская, 31а</span>
                         </div>
-                        <div class="mailing">
+                        <form class="mailing">
                             <span class="mailing_header">Будьте в курсе новостей!</span>
-                            <input type="e-mail" placeholder="Ваш E-mail:" class="email_input">
-                            <button class="mailing_btn btn">Подписаться</button>
-                        </div>
+                            <input type="email" placeholder="Ваш E-mail:" class="email_input" required="e-mail">
+                            <button class="mailing_btn btn" >Подписаться</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -207,23 +207,21 @@
             <div class="navbar2">
                 <img src="/img/logo.png" alt="logo" class="logo footer_logo">
                 <div class="networks">
-                    <img src="/img/instagram (1) 1.svg" alt="inst" class="social_networks">
-                    <img src="/img/vk 1.svg" alt="vk" class="social_networks">
-                    <img src="/img/telegram 1.svg" alt="telegram" class="social_networks">
+                    <a href="https://vk.com/saidabakirova" target="_blank"><img src="/img/vk 1.svg" alt="vk" class="social_networks"></a>
+                    <a href="https://www.instagram.com/ebiemnen/" target ="_ blank"><img src="/img/instagram (1) 1.svg" alt="inst" class="social_networks"></a>
+                    <a href=""><img src="/img/telegram 1.svg" alt="telegram" class="social_networks"></a>
                 </div>
                 <ul class="menu menu_footer">
                     <li class="menu-element"><a href="#" class="menu-element">Главная</a></li>
                     <li class="menu-element"><a href="#about_us" class="menu-element">О нас</a></li>
-                    <li class="menu-element"><a href="#product's_catalog" class="menu-element">Каталог</a></li>
+                    <li class="menu-element"><a href="#products_catalog" class="menu-element">Каталог</a></li>
                     <li class="menu-element"><a href="#our_contacts" class="menu-element">Контакты</a></li>
                 </ul>
                 <div class="telephone footer_telephone">
                     <img src="/img/phone-call 1.svg" alt="tel" class="phone">
-                    <a href="#" class="tel">+7 9179372422</a>
+                    <a href="tel:+7 9179372422" class="tel">+7 9179372422</a>
                 </div>
-                <div class="up">
-                    <img src="/img/right-arrow 1.svg" alt="burger">
-                </div>
+                
             </div>
         </div>
     </footer>
@@ -236,5 +234,16 @@
     <img src="/img/lime.png" alt="" class="lime">
     <img src="/img/red.png" alt="" class="red">
     <img src="/img/lemons2.png" alt="" class="lemons2">
+   
+    <!-- hidden blocks -->
+    <div class="call_me">
+        <p class="call-to-order">
+
+        </p>
+        <a href="tel:+7 9179372422" class="tel-for-call"></a>
+    </div>
 </body>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/main.js"></script>
 </html>
+

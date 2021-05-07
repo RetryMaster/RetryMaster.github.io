@@ -57,6 +57,10 @@ a {
     list-style-type: none;
 }
 
+.menu-element:hover{
+    filter: drop-shadow(0px 0.1px 0.1px #E12B21);
+    
+}
 .telephone {
     display: flex;
     align-items: center;
@@ -72,6 +76,9 @@ a {
     letter-spacing: 0.1em;
     color: #E12B21;
     margin-left: 10px;
+}
+.tel:hover{
+    filter: drop-shadow(0px 0.1px 1px #E12B21);
 }
 .burger{
     display: none;
@@ -104,7 +111,16 @@ a {
     filter: drop-shadow(0px 4px 10px #E12B21);
     cursor: pointer;
     margin-top: 50px;
+    border: none;
+    outline: none;
 }
+
+.btn:hover{
+    background: rgba(0,0,0,0);
+    color:#E12B21;
+    box-shadow: #FF0100;
+}
+
 
 .offer-img{
     filter: drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.25));
@@ -120,18 +136,25 @@ a {
     border-radius: 65px;
     border: none;
     cursor: pointer;
+    outline: none;
 }
 
 .bullets {
     margin-left: 200px;
 }
-
+.bullet:hover{
+    background-color: #8B8B8B;
+}
 .arrow {
     display: inline;
     position: absolute;
     left: 1350px;
     top: 330px;
     cursor: pointer;
+}
+
+.arrow:hover{
+    filter: drop-shadow(0px 4px 3px #000);
 }
 
 .first{
@@ -321,6 +344,11 @@ a {
     margin-top: 13px;
     margin-left: 15px;
 }
+.offer_btn:hover{
+    background: rgba(0,0,0,0);
+    color:#E12B21;
+    box-shadow: #FF0100;
+}
 
 .structure {
     font-family: 'Montserrat';
@@ -363,8 +391,12 @@ a {
     height: 31px;
     border-style: none;
     margin-right: 20px;
+    cursor: pointer;
+    outline: none;
 }
-
+.cercle_bullet:hover{
+    background-color: #005C13;
+}
 .arrow2 {
     display: inline;
     position: absolute;
@@ -372,13 +404,18 @@ a {
     top: 2350px;
     cursor: pointer;
 }
-
+.arrow2:hover{
+    filter: drop-shadow(0px 1px 1px #005C13);
+}
 .arrow1 {
     display: inline;
     position: absolute;
     right: 100px;
     top: 2350px;
     cursor: pointer;
+}
+.arrow1:hover{
+    filter: drop-shadow(0px 1px 1px #005C13);
 }
 .arrow_r{
     display: none;
@@ -433,7 +470,12 @@ a {
     line-height: 29px;
     text-align: center;
     color: rgba(0, 92, 19, 0.5);
-    cursor: pointer;
+    cursor: pointer; 
+    outline: none;
+}
+.discount_btn:hover {
+    border-color: #005C13;
+    color: #005C13;
 }
 
 .sale {
@@ -498,7 +540,9 @@ a {
 .tel2{
     color:#005C13;
 }
-
+.tel2:hover{
+    color:#005C13;
+}
 .e-mail {
     display: flex;
     align-items: center;
@@ -515,7 +559,6 @@ a {
     color: #005C13;
     margin-left: 10px;
 }
-
 .address {
     display: flex;
     align-items: center;
@@ -558,8 +601,11 @@ a {
     color: rgba(225, 43, 33, 0.5);
     padding-left: 20px;
     margin-bottom: 25px;
+    outline: none;
 }
-
+/* .email_input:hover{
+    
+} */
 .mailing_btn{
     width: 242px;
     height: 40px;
@@ -582,6 +628,7 @@ a {
 
 .social_networks {
     margin-right: 20px;
+    cursor: pointer;
 }
 
 /* img for responsive */
@@ -955,20 +1002,87 @@ a {
 
 /* 576-768 */
 @media screen and (max-width: 768px) {
+    body.lock{
+        overflow: hidden;
+    }
+    .logo{
+        z-index: 3;
+    }
     .navbar{
         margin-bottom: 10px;
     }
-    .menu{
-        display: none;
-    }
+    
     .telephone{
         display: none;
     }
    
     .burger{
-        display: inline;
+        z-index: 3;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .burger:before,
+    .burger::after{
+        content: '';
+        background-color: #E12B21;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        transition: all 0.3s ease 0s;
+    }
+    .burger:before{
+        top: 0;
+    }
+    .burger:after{
+        bottom: 0;
+    }
+    .burger span{
+        background-color: #E12B21;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
     }
 
+    .burger.active:before{
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .burger.active:after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .burger.active span{
+        transform: scale(0);
+        transition: all 0.3s ease 0s;
+    }
+    .header_menu{
+        top: -1000%;
+        position: fixed;
+        z-index: 2;
+        background-color: #FFC000;
+        overflow: auto;
+        width: 100%;
+        padding-bottom: 1200px;
+        padding-top: 150px;
+        display: block;
+    }
+    .menu-element{
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .header_wrap{
+        width: 100%; 
+    }
+    .header_menu.active{
+        top: 0%;
+        transition: all 0.3s ease 0s;
+    }
     /* ----------- */
 
     .wrap2{
@@ -1060,6 +1174,9 @@ a {
     }
     .card_inform{
         font-size: 16px;
+    }
+    .menu_footer{
+        display: none;
     }
 }
 
