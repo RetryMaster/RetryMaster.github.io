@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Эбиемнэн</title>
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@500;700;800&display=swap"
         rel="stylesheet">
@@ -43,15 +45,27 @@
                             <button class="btn first_btn" onclick="window.location.href = '#products_catalog'">Сделать заказ</button>
                         </div>
                         <div class="offer">
-                            <img src="/img/offer1.png" alt="offer" class="offer-img">
-                            <div class="bullets">
+                            <div class="owl-carousel">
+                                <div>
+                                    <img src="/img/offer1.png" alt="offer" class="offer-img offer_red-cake">
+                                </div>
+                                <div>
+                                    <img src="/img/post2.png" alt="offer" class="offer-img offer_chokolate_cake">
+                                </div>
+                                <div>
+                                    <img src="/img/post3.png" alt="offer" class="offer-img offer_honey-cake">
+                                </div>
+                            </div>
+                            <div class="offer_swipe">
+                                <!-- <button class="bullet"></button>
                                 <button class="bullet"></button>
-                                <button class="bullet"></button>
-                                <button class="bullet"></button>
+                                <button class="bullet"></button> -->
+                                <p class="offer_swipe_text">&#8592;  Листай что бы увидеть ещё!  &#8594;<br>
+                                    <a class="all_offers" href = '#products_catalog'><u>Все предложения</u></a>
                             </div>
                         </div>
                     </div>
-                    <img src="/img/Vector 2.svg" alt="arrow" class="arrow">
+                    <!-- <img src="/img/Vector 2.svg" alt="arrow" class="arrow"> -->
                 </div>
             </div>
         </section>
@@ -252,6 +266,7 @@
     
 </body>
 <script src="/js/jquery.min.js"></script>
+<script src="dist/owl.carousel.min.js"></script>
 <script src="/js/main.js"></script>
 </html>
 

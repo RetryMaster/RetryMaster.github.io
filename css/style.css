@@ -127,9 +127,16 @@ a {
     border-radius: 172.5px;
     width: 615px;
     height: 350px;
+    cursor: grab;
 }
+/* .offer_chokolate_cake{
+    display: none;
+}
+.offer_honey-cake{
+    display: none;
+} */
 
-.bullet {
+/* .bullet {
     width: 70px;
     height: 10px;
     background: rgba(196, 196, 196, 0.7);
@@ -155,6 +162,22 @@ a {
 
 .arrow:hover{
     filter: drop-shadow(0px 4px 3px #000);
+} */
+.offer_swipe_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 80px;
+}
+.all_offers{
+    cursor: pointer;
+    color: #E12B21;
+    text-decoration: #FF0100;
+}
+.all_offers:hover{
+    filter: drop-shadow(0px 0.4px 0.6px #E12B21);
 }
 
 .first{
@@ -1175,12 +1198,15 @@ a {
     .offer_img{
         margin-left: 30px;
     }
-    .bullets{
+    .offer_swipe_text{
+        margin-left: 50px;
+    }
+    /* .bullets{
         display: none;
     }
     .arrow{
         top: 450px;
-    }
+    } */
     .strawberry2{
         top: 650px;
         width: 430px;
@@ -1270,11 +1296,15 @@ a {
         width: 330px;
         height: 200px;
     }
-    .arrow{
+    .offer_swipe_text{
+        margin-left: 38px;
+        font-size: 16px;
+    }
+    /* .arrow{
        
         left:87.5%;
         top: 490px;
-    }
+    } */
     .h2_2{
         margin-left: 29px;
     }

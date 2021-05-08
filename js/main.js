@@ -18,3 +18,13 @@ $(document).ready(function(){
         $('body').removeClass('lock');
     }); 
 });
+
+
+
+
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+      items:1
+  });
+});
