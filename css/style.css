@@ -169,7 +169,8 @@ a {
     font-weight: 500;
     font-size: 18px;
     text-align: center;
-    margin-left: 80px;
+    
+    
 }
 .all_offers{
     cursor: pointer;
@@ -178,6 +179,23 @@ a {
 }
 .all_offers:hover{
     filter: drop-shadow(0px 0.4px 0.6px #E12B21);
+}
+
+.owl-nav{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: -30px;
+    justify-content: space-between;
+}
+.owl-prev{
+    width: 66px;
+    height: 26px;
+    
+}
+.owl-next{
+    width: 66px;
+    height: 26px;
 }
 
 .first{
@@ -324,7 +342,7 @@ a {
     background-image: url(/img/фон\ ярко\ желтый.png);
     background-repeat: no-repeat;
     padding-top: 110px;
-    padding-bottom: 200px;
+    padding-bottom: 287px;
 }
 
 .h2_3 {
@@ -1018,8 +1036,8 @@ a {
         margin-left: 27px;
     }
     .product {
-    margin-left: 30px;
-}
+        margin-left: 30px;
+    }
     .offers{
         align-items: center;
         margin-left: 40px;
@@ -1028,7 +1046,9 @@ a {
         right: 0px;
         top: 2050px;
     }
-
+    .catalog{
+        padding-bottom: 140px;
+    }
     .arrow2{
         left: 0px;
         top: 2050px;
@@ -1173,6 +1193,9 @@ a {
     }
     /* ----------- */
 
+    .owl-nav{
+        margin-bottom: -10px;
+    }
     .wrap2{
         display: block;
     }
@@ -1318,7 +1341,7 @@ a {
         margin: 0;
     }
     .catalog{
-        padding-bottom: 30px;
+        padding-bottom: 60px;
     }
     .arrow1{
         display: none;

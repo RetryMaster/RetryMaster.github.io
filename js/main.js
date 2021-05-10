@@ -25,6 +25,25 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
-      items:1
+      items:1,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 10000,
+      nav: true,
+      navText: ['&#8592;', '&#8594;']
   });
 });
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+      items:3,
+      loop: true,
+      autoplay: true,
+      nav: true,
+      navText: ['&#8592;', '&#8594;']
+  });
+});
+
+
+
+  
